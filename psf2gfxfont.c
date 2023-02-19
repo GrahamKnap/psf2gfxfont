@@ -106,7 +106,7 @@ bool DisplayGlyph(const PSF * p, uint16_t index)
     
     for (int row = 0; row < p->height; row++)
     {
-        uint8_t x;
+        uint8_t x = 0;
 
         for (uint32_t col = 0; col < p->width; col++)
         {
